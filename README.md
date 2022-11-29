@@ -1,1 +1,1 @@
-# cs886-winter-2022
+# Graph Neural Networks
