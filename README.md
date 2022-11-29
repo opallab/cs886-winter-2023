@@ -1,4 +1,4 @@
-# Graph Neural Networks
+# CS 886: Graph Neural Networks
 
 ## Logistics
 + **Instructor:** [Kimon Fountoulakis](https://opallab.ca/team/)
@@ -21,18 +21,6 @@ The below schedule is subject to change:
 | Week | Date | Topic | Readings |
 |:-----|:-----|:-----|:------------|
 | 1 | 9/13 | Introduction (Semih lecturing) |  [Knowledge Graphs](https://dl.acm.org/doi/10.1145/3418294) <br/> [The Semantic Web](https://www.jstor.org/stable/26059207?seq=1#metadata_info_tab_contents) <br/> SWFO Ch 3, 5-7|
-| 2 | 9/20 | Guest Lecture: Prof. Grant Weddell  <br/> Foundations of Knowledge Representation | KRR Ch 2 & 3 <br/> (No reviews but do Exercises 1 and 4 in Ch 2.7 of KRR and submit a pdf (latex or hand written)). |
-| 3 | 9/27 | Datalog (Semih lecturing online) |  PDKBS 3 (from pgs 96 to 139 but I highly recommend 139-164 <br /> as well if you have not read on the formalism of relational algebra) |
-| 4 | 10/04   | Query Processing in Deductive DBMS: Magic Sets (Semih lecturing) | PDKBS 12.1-12.8, PDKBS 13.1-13.5 <br/> Optional: [Magic Sets Original Paper](https://dl.acm.org/doi/10.1145/6012.15399) <br/> Optional: [Magic is Relevant](https://dl.acm.org/doi/abs/10.1145/93605.98734) |
-| -- | 10/11   | No Class (Reading Week) | |
-| 5 | 10/18   | RDF Systems | [RDFox](https://link.springer.com/content/pdf/10.1007/978-3-319-25010-6_1.pdf) <br/> [RDF3x](https://dl.acm.org/doi/10.14778/1453856.1453927) |
-| 6 | 10/25   | Property Graph Data Management Systems (Semih and Amine lecturing) | [The Ubiquity of Large Graphs User Survey](https://cs.uwaterloo.ca/~jimmylin/publications/Sahu_etal_VLDBJ2019.pdf) <br/> [FDB](http://vldb.org/pvldb/vol5/p1232_nurzhanbakibayev_vldb2012.pdf) <br/> [Optimizing Subgraph Queries by Combining Binary and WCOJ](https://www.vldb.org/pvldb/vol12/p1692-mhedhbi.pdf) <br/> Optional: [Umbra WCOJ Implementation](https://db.in.tum.de/~freitag/papers/p1891-freitag.pdf) |
-| 7 | 11/01   | Large Public Knowledge Graphs and Ontologies | [DBPedia](https://www.researchgate.net/publication/259828897_DBpedia_-_A_Large-scale_Multilingual_Knowledge_Base_Extracted_from_Wikipedia) <br/> [SNODEM](https://link.springer.com/book/10.1007/978-981-287-895-3): Ch 3, Ch 4.1-4.3.8.3, 4.4 <br/> [Schema.org](https://queue.acm.org/detail.cfm?id=2857276) |
-| 8 | 11/08   | Enterprise Knowledge Graphs & Management Systems | [Sequeda Thesis Ch 3](https://repositories.lib.utexas.edu/bitstream/handle/2152/30537/SEQUEDA-DISSERTATION-2015.pdf) <br/> [Sequeda Thesis Ch 4](https://repositories.lib.utexas.edu/bitstream/handle/2152/30537/SEQUEDA-DISSERTATION-2015.pdf) <br/> [Optional: Pay-as-you-go Methodology Case Study](https://github.com/juansequeda/papers/blob/master/iswc2019.pdf) (Focus on Section 4)|
-| 9 | 11/15   | Natural Language Interfaces to Data | [BELA](https://download.hrz.tu-darmstadt.de/pub/FB20/Dekanat/Publikationen/UKP/76500354.pdf) <br/> [ATHENA](http://www.vldb.org/pvldb/vol9/p1209-saha.pdf) <br/> [Optional: ATHENA++](http://www.vldb.org/pvldb/vol13/p2747-sen.pdf) <br/> [Optional: IRNet](https://aclanthology.org/P19-1444.pdf)|
-| 10 | 11/22   | Graph Embeddings/Deep Natural Language Embeddings  | [TransE](https://proceedings.neurips.cc/paper/2013/file/1cecc7a77928ca8133fa24680a88d2f9-Paper.pdf) <br/> [Q&A With Embeddings](https://arxiv.org/pdf/1406.3676.pdf) <br/> [Optional: Survey on KG Embeddings](https://ieeexplore.ieee.org/document/8047276)|
-| 11 | 11/29   |  Guest Lecture on Data Cataloging: Juan Sequeda & Other Enterprise Applications | [Datanami Article](https://www.datanami.com/2022/09/30/what-does-it-mean-for-a-data-catalog-to-be-powered-by-a-knowledge-graph/) <br/> [Saga](https://arxiv.org/pdf/2204.07309.pdf) |
-| 12 | 12/06   | Linked Open Data Movement | [Google Dataset Search](https://dl.acm.org/doi/pdf/10.1145/3308558.3313685) <br/> [Table Union Search](http://www.vldb.org/pvldb/vol11/p813-nargesian.pdf) <br/> Optional: [Making Open Datasets Transparent](http://www.cs.toronto.edu/~christina/documents/MakingOpenDataTransparent.pdf)|
 
 ## Readings
 
