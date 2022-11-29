@@ -1,31 +1,17 @@
 # Graph Neural Networks
 
 ## Logistics
-+ **Instructor:** [Semih Salihoglu](https://cs.uwaterloo.ca/~ssalihog/)
-+ **Seminar Room:** DC 2585
-+ **Seminar Time:** Tue 4pm-6:50pm
++ **Instructor:** [Kimon Fountoulakis](https://opallab.ca/team/)
++ **Seminar Room:** TBA
++ **Seminar Time:** Monday and Wednesday 5:30pm-6:50pm
 
 ## Overview
-The quest to build intelligent machines that are capable of logical reasoning, i.e., ones that can 
-induce new information  or deduce logical rules from prior information, is as old as the field of 
-computer science. Research topics motivated with this ultimate goal is at the heart of 
-symbolic (as opposed to statistical) artificial intelligence and connects with many sub-fields 
-of computer science, such as data management and semantic web, as well as other scientific fields,
-such as linguistics. These systems are generally based on forming a knowledge base or 
-knowledge graph that represent a set of facts about a real world application domain,
-as well as elementary logical rules specifying constraints about the domain, as well
-as an inference system that can answer questions using the base facts and the rules.
-Historically, there has been several periods that have popularized the development of such 
-knowledge graph-based applications. The strongest of these have been the expert systems of 1980,
-the semantic web of 2000s, and the current wave of question answering in search engines, 
-recommender systems, and dataset cataloging/search for extremely heterogeneous 
-large public goverment and private enterprise data lakes.
 
-This seminar will cover seminal work in the space of knowledge graph representation, querying,
-management, and past and primarily modern applications that are powered by knowledge graphs.
-Topics include knowledge models, ontologies, query languages, graph data management systems,
-public knowledge graphs, knowledge graph embeddings, popular successful past and present
-applications. 
+Learning from multi-modal datasets is currently one of the most prominent topics in artificial intelligence. The reason behind this trend is that many applications, such as recommendation systems and fraud detection, require the combination of different types of data. In addition, it is often the case that data exhibit relations which need to be captured for downstream applications. In this proposal we are interested in multi-modal data which combine a graph, i.e., a set of nodes and edges, with attributes for each node and/or edge. The attributes of the nodes/edges capture information about the nodes/edges themselves, while the edges among the nodes capture relations among the nodes. Capturing relations is particularly helpful for applications where we are trying to make predictions for nodes given neighborhood data.
+
+One of the most prominent and principled ways of handling such multi-modal data for downstream tasks such as node classification is graph neural networks. Graph neural network models can mix hand-crafted or automatically learned attributes about the nodes while taking into account relational information among the nodes. Therefore, the output vector representation of the graph neural network contains global and local information for the nodes. This contrasts with neural networks that only learn from the attributes of entities. 
+
+This seminar will cover seminal work in the space of graph neural networks For example, spectral and spatial convolutional graph neural networks, graph attention networks, invariant and equivariant graph neural networks, generall message passing graph neural networks. Finally, we will discuss current theoretical understanding of the performance of graph neural networks. For example, what does convolution do to the input data? Does convolution improve generalization compared to not using a graph? How do multiple convolutions change the data and how do they affect generalization?
 
 The seminar is based on weekly paper readings and student presentations, discussions, and
 a term project. 
