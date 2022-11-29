@@ -20,7 +20,7 @@ a term project.
 The below schedule is subject to change:
 | Week | Date | Topic | Readings |
 |:-----|:-----|:-----|:------------|
-| 1 | 9/13 | Introduction (Semih lecturing) | <br/> [Geometric Deep Learning]([https://geometricdeeplearning.com]) <br/> SWFO Ch 3, 5-7|
+| 1 | 9/13 | Introduction (Semih lecturing) | <br/> [Geometric Deep Learning](https://geometricdeeplearning.com) <br/> SWFO Ch 3, 5-7|
 
 ## Readings
 
