@@ -46,6 +46,7 @@ The below schedule is subject to change:
 + [Foundations of Graph Neural Networks](https://www.youtube.com/watch?v=uF53xsT7mjc), Petar Veličković, DeepMind
 + [Geometric Deep Learning Course](https://geometricdeeplearning.com/lectures/)
 + [Machine Learning for the Working Mathematician: Geometric Deep Learning](https://www.youtube.com/watch?v=7pRIjJ_u2_c), Geordie Williamson, The University of Syndney
++ [Advanced lectures on community detection](https://indico.ictp.it/event/9797/other-view?view=ictptimetable), Laurent Massoulie, INRIA Paris
 
 ## Code
 
@@ -57,6 +58,16 @@ The below schedule is subject to change:
 + [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_overview/)
 
 ## Datasets
+
++ [Open Graph Benchmark](https://ogb.stanford.edu)
++ [HyperGraphs](https://www.cs.cornell.edu/~arb/data/)
++ [TUDatasets](https://chrsmrrs.github.io/datasets/)
++ [Non Homophily Benchmarks](https://github.com/CUAI/Non-Homophily-Benchmarks)
++ [Graph Learning Benchmarks](https://graph-learning-benchmarks.github.io/glb2022)
++ [Hetionet](https://het.io)
++ [Heterogeneous graph benchmarks](https://www.biendata.xyz/hgb/)
++ [Long Range Graph Benchmark](https://towardsdatascience.com/lrgb-long-range-graph-benchmark-909a6818f02c)
+
 
 ## Workload Breakdown
 + Class Participation: 15%
