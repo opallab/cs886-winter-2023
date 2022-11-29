@@ -48,6 +48,10 @@ The below schedule is subject to change:
 + [Machine Learning for the Working Mathematician: Geometric Deep Learning](https://www.youtube.com/watch?v=7pRIjJ_u2_c), Geordie Williamson, The University of Syndney
 + [Advanced lectures on community detection](https://indico.ictp.it/event/9797/other-view?view=ictptimetable), Laurent Massoulie, INRIA Paris
 
+## Online reading seminars
+
++ [LoGaG: Learning on Graphs and Geometry Reading Group](https://hannes-stark.com/logag-reading-group)
+
 ## Code
 
 + [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
