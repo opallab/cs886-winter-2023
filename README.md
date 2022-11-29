@@ -20,7 +20,7 @@ a term project.
 The below schedule is subject to change:
 | Week | Date | Topic | Readings |
 |:-----|:-----|:-----|:------------|
-| 1 | 9/13 | Introduction (Semih lecturing) |  [Knowledge Graphs](https://dl.acm.org/doi/10.1145/3418294) <br/> [The Semantic Web](https://www.jstor.org/stable/26059207?seq=1#metadata_info_tab_contents) <br/> SWFO Ch 3, 5-7|
+| 1 | 9/13 | Introduction (Semih lecturing) |  [Geometric Deep Learning]([https://dl.acm.org/doi/10.1145/3418294](https://geometricdeeplearning.com)) <br/> [The Semantic Web](https://www.jstor.org/stable/26059207?seq=1#metadata_info_tab_contents) <br/> SWFO Ch 3, 5-7|
 
 ## Readings
 
