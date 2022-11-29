@@ -20,7 +20,7 @@ a term project.
 The below schedule is subject to change:
 | Week | Date | Topic | Readings |
 |:-----|:-----|:-----|:------------|
-| 1 | 1/9 | Introduction (Kimon lecturing) | [Geometric Deep Learning](https://arxiv.org/abs/2104.13478) (Chapter 1) <br/> [Geometric foundations of Deep Learning](https://towardsdatascience.com/towards-geometric-deep-learning-iv-chemical-precursors-of-gnns-11273d74125) <br/>  [Towards Geometric Deep Learning I: On the Shoulders of Giants](https://towardsdatascience.com/towards-geometric-deep-learning-i-on-the-shoulders-of-giants-726c205860f5) <br/> [Towards Geometric Deep Learning II: The Perceptron Affair](https://towardsdatascience.com/towards-geometric-deep-learning-ii-the-perceptron-affair-fafa61b5c40a) <br/> [Towards Geometric Deep Learning III: First Geometric Architectures](https://towardsdatascience.com/towards-geometric-deep-learning-iii-first-geometric-architectures-d1578f4ade1f) <br/> [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/) <br/> [Intro to graph neural networks (ML Tech Talks)](https://www.youtube.com/watch?v=8owQBFAHw7E) |
+| 1 | 1/9 | Introduction (Kimon lecturing) | [Geometric Deep Learning](https://arxiv.org/abs/2104.13478) (Chapter 1) <br/> [Geometric foundations of Deep Learning](https://towardsdatascience.com/towards-geometric-deep-learning-iv-chemical-precursors-of-gnns-11273d74125) <br/>  [Towards Geometric Deep Learning I: On the Shoulders of Giants](https://towardsdatascience.com/towards-geometric-deep-learning-i-on-the-shoulders-of-giants-726c205860f5) <br/> [Towards Geometric Deep Learning II: The Perceptron Affair](https://towardsdatascience.com/towards-geometric-deep-learning-ii-the-perceptron-affair-fafa61b5c40a) <br/> [Towards Geometric Deep Learning III: First Geometric Architectures](https://towardsdatascience.com/towards-geometric-deep-learning-iii-first-geometric-architectures-d1578f4ade1f) <br/> [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/) <br/> [Intro to graph neural networks (ML Tech Talks)](https://www.youtube.com/watch?v=8owQBFAHw7E) <br/> [Foundations of Graph Neural Networks](https://www.youtube.com/watch?v=uF53xsT7mjc)|
 | 1 | 1/11 | Spatial graph convolution and its theoretical performance on simple random data (Kimon lecturing) | [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907) <br/> [Semi-Supervised Classification with Graph Convolutional Networks](https://proceedings.mlr.press/v139/baranwal21a.html), [Video](https://zoom.us/rec/play/X1FbBJiP1bLTixjmU7wBw233sutk939XulBkrY0Szes9KSNh_cFovdohKoZ-KXFaCZJ5G5yg4m5nKZol.47Ol60UmzMVLZec8?startTime=1624287370000&_x_zm_rtaid=2ArAs6KUSwiFwnA5V61cmQ.1624792221031.e0fb3030146eeed7cee824bfc92e70b5&_x_zm_rhtaid=77) (time 1:03:34) <br/> [PyTorch code for GCN](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GCNConv), [Example code](https://pytorch-geometric.readthedocs.io/en/latest/notes/introduction.html) | 
 | 2 | 1/16 | Multilayer graph convolution network and its theoretical performance on simple random data (Kimon lecturing) | [Effects of Graph Convolutions in Multi-layer Networks](https://arxiv.org/abs/2204.09297), [Code for reproducing the experiments](https://github.com/opallab/Effects-of-Graph-Convs-in-Deep-Nets) <br/> [Theory of Graph Neural Networks: Representation and Learning](https://arxiv.org/abs/2204.07697) | 
 | 2 | 1/18 | Graph Attention Network and Graph Attention Retrospective (Kimon lecturing) | [Graph Attention Networks](https://arxiv.org/abs/1710.10903), [PyTorch Code](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GATConv) <br/> [Graph Attention Retrospective](https://arxiv.org/abs/2202.13060), [Code for reproducing the experiments](https://github.com/opallab/Graph-Attention-Retrospective/), [Video lecture](https://youtu.be/duWVNO8_sDM) <br/> [Theory of Graph Neural Networks: Representation and Learning](https://arxiv.org/abs/2204.07697) | 
@@ -35,6 +35,28 @@ The below schedule is subject to change:
 + [Graph Representation Learning Book](https://www.cs.mcgill.ca/~wlh/grl_book/), William L. Hamilton, 2020
 + [Graph Neural Networks](https://graph-neural-networks.github.io), Lingfei Wu, Peng Cui, Jian Pei, Liang Zhao, (2022)
 + [High Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf), Roman Vershynin, 2022
+
+## Other courses online related to machine learning on graphs
+
++ [Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/), Jure Leskovec, Stanford
++ [Graph Representation Learning](https://cs.mcgill.ca/~wlh/comp766/), William L. Hamilton, McGill
++ [Introduction to Graph Neural Networks](https://www.youtube.com/watch?v=Iiv9R6BjxHM), Xavier Bresson, Nanyang Techinical University and NYU
++ [Recent Developments in Graph Network Architectures](https://www.youtube.com/watch?v=M60huxIvKbE), Xavier Bresson, Nanyang Techinical University
++ [Benchmarking GNNs](https://www.youtube.com/watch?v=tuChBSo8_eg), Xavier Bresson, Nanyang Techinical University
++ [Foundations of Graph Neural Networks](https://www.youtube.com/watch?v=uF53xsT7mjc), Petar Veličković, DeepMind
++ [Geometric Deep Learning Course](https://geometricdeeplearning.com/lectures/)
++ [Machine Learning for the Working Mathematician: Geometric Deep Learning](https://www.youtube.com/watch?v=7pRIjJ_u2_c), Geordie Williamson, The University of Syndney
+
+## Code
+
++ [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)
++ [Deep Graph Library](https://www.dgl.ai)
+
+## Competitions
+
++ [Open Graph Benchmark](https://ogb.stanford.edu/docs/leader_overview/)
+
+## Datasets
 
 ## Workload Breakdown
 + Class Participation: 15%
