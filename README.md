@@ -59,6 +59,7 @@ The below schedule is subject to change:
 
 ## Datasets
 
++ [PyTorch Geometric Datasets](https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html)
 + [Open Graph Benchmark](https://ogb.stanford.edu)
 + [HyperGraphs](https://www.cs.cornell.edu/~arb/data/)
 + [TUDatasets](https://chrsmrrs.github.io/datasets/)
