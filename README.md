@@ -16,24 +16,25 @@ This seminar will cover seminal work in the space of graph neural networks For e
 The seminar is based on weekly paper readings and student presentations, discussions, and
 a term project. 
 
-## Schedule
+## (Tentative) Schedule
 The below schedule is subject to change:
 | Week | Date | Topic | Readings |
 |:-----|:-----|:-----|:------------|
-| 1 | 9/13 | Introduction (Kimon lecturing) | [Geometric Deep Learning](https://arxiv.org/abs/2104.13478) (Chapter 1) <br/> [Geometric foundations of Deep Learning](https://towardsdatascience.com/towards-geometric-deep-learning-iv-chemical-precursors-of-gnns-11273d74125) <br/>  [Towards Geometric Deep Learning I: On the Shoulders of Giants](https://towardsdatascience.com/towards-geometric-deep-learning-i-on-the-shoulders-of-giants-726c205860f5) <br/> [Towards Geometric Deep Learning II: The Perceptron Affair](https://towardsdatascience.com/towards-geometric-deep-learning-ii-the-perceptron-affair-fafa61b5c40a) <br/> [Towards Geometric Deep Learning III: First Geometric Architectures](https://towardsdatascience.com/towards-geometric-deep-learning-iii-first-geometric-architectures-d1578f4ade1f) <br/> [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/) <br/> [Intro to graph neural networks (ML Tech Talks)](https://www.youtube.com/watch?v=8owQBFAHw7E) |
+| 1 | 1/9 | Introduction (Kimon lecturing) | [Geometric Deep Learning](https://arxiv.org/abs/2104.13478) (Chapter 1) <br/> [Geometric foundations of Deep Learning](https://towardsdatascience.com/towards-geometric-deep-learning-iv-chemical-precursors-of-gnns-11273d74125) <br/>  [Towards Geometric Deep Learning I: On the Shoulders of Giants](https://towardsdatascience.com/towards-geometric-deep-learning-i-on-the-shoulders-of-giants-726c205860f5) <br/> [Towards Geometric Deep Learning II: The Perceptron Affair](https://towardsdatascience.com/towards-geometric-deep-learning-ii-the-perceptron-affair-fafa61b5c40a) <br/> [Towards Geometric Deep Learning III: First Geometric Architectures](https://towardsdatascience.com/towards-geometric-deep-learning-iii-first-geometric-architectures-d1578f4ade1f) <br/> [A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/) <br/> [Intro to graph neural networks (ML Tech Talks)](https://www.youtube.com/watch?v=8owQBFAHw7E) |
+| 1 | 1/11 | Spatial graph convolution and its theoretical performance on simple random data (Kimon lecturing) | [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907) <br/> [Semi-Supervised Classification with Graph Convolutional Networks](https://proceedings.mlr.press/v139/baranwal21a.html), [Video](https://zoom.us/rec/play/X1FbBJiP1bLTixjmU7wBw233sutk939XulBkrY0Szes9KSNh_cFovdohKoZ-KXFaCZJ5G5yg4m5nKZol.47Ol60UmzMVLZec8?startTime=1624287370000&_x_zm_rtaid=2ArAs6KUSwiFwnA5V61cmQ.1624792221031.e0fb3030146eeed7cee824bfc92e70b5&_x_zm_rhtaid=77) (time 1:03:34) <br/> [PyTorch code for GCN](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GCNConv), [Example code](https://pytorch-geometric.readthedocs.io/en/latest/notes/introduction.html) | 
+| 2 | 1/16 | Multilayer graph convolution network and its theoretical performance on simple random data (Kimon lecturing) | [Effects of Graph Convolutions in Multi-layer Networks](https://arxiv.org/abs/2204.09297), [Code for reproducing the experiments](https://github.com/opallab/Effects-of-Graph-Convs-in-Deep-Nets) <br/> [Theory of Graph Neural Networks: Representation and Learning](https://arxiv.org/abs/2204.07697) | 
+| 2 | 1/18 | Graph Attention Network and Graph Attention Retrospective (Kimon lecturing) | [Graph Attention Networks](https://arxiv.org/abs/1710.10903), [PyTorch Code](https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.conv.GATConv) <br/> [Graph Attention Retrospective](https://arxiv.org/abs/2202.13060), [Code for reproducing the experiments](https://github.com/opallab/Graph-Attention-Retrospective/), [Video lecture](https://youtu.be/duWVNO8_sDM) <br/> [Theory of Graph Neural Networks: Representation and Learning](https://arxiv.org/abs/2204.07697) | 
+| 3 | 1/23 | ΤΒΑ |  | 
 
-## Readings
 
-This seminar's reading will cover chapters from the following surveys and textbooks in addition to research papers, which will be posted in the schedule.
-+ [Knowledge Representation and Reasoning (KRR)](https://www.cin.ufpe.br/~mtcfa/files/in1122/Knowledge%20Representation%20and%20Reasoning.pdf), Brachman \& Levesque, 2004
-+ [Designing and Building Enterprise Knowledge Graphs](https://link.springer.com/book/10.1007/978-3-031-01916-6), Sequeda \& Lassila, 2021
-+ [Machine Knowledge: Creation and Curation of Comprehensive Knowledge Bases](https://www.nowpublishers.com/article/Details/DBS-064), Weikum, Dong, Razniewski, Suchanek, 2021
-+ [Natural Language Interfaces to Data](https://www.nowpublishers.com/article/Details/DBS-078) Quammar,Efthymiou, Lei, Özcan, 2022
-+ [Semantic Web for the Working Ontologist (SWFWO)](https://tinyurl.com/2p9672s2), Allemang \& Hendler, 2008
-+ The Protégé Project: [1](https://perso.liris.cnrs.fr/amille/enseignements/MasterCode/IC_IA/session2/protege_evolution.pdf), [2](https://dl.acm.org/doi/pdf/10.1145/2757001.2757003)
-+ [Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project](https://people.dbmi.columbia.edu/~ehs7001/Buchanan-Shortliffe-1984/MYCIN%20Book.htm), Buchanan, Shortliffe, 1984
-+ [Principles of Database and Knowledge-Base Systems (PDKBS)](https://www.sti-innsbruck.at/sites/default/files/Knowledge-Representation-Search-and-Rules/principles-of-database-and-knowledge-base-systems-volume-1-1.pdf), Ullman, 1989
 
+## Readings (to be updated)
+
++ [Geometric Deep Learning](https://geometricdeeplearning.com), Michael M. Bronstein, Joan Bruna, Taco Cohen, Petar Veličković, 2021
++ [Theory of Graph Neural Networks: Representation and Learning](https://arxiv.org/abs/2204.07697), Stefanie Jegelka, 2022
++ [Graph Representation Learning Book](https://www.cs.mcgill.ca/~wlh/grl_book/), William L. Hamilton, 2020
++ [Graph Neural Networks](https://graph-neural-networks.github.io), Lingfei Wu, Peng Cui, Jian Pei, Liang Zhao, (2022)
++ [High Dimensional Probability](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf), Roman Vershynin, 2022
 
 ## Workload Breakdown
 + Class Participation: 15%
@@ -42,43 +43,37 @@ This seminar's reading will cover chapters from the following surveys and textbo
 + Project: 50%
 
 ## Paper Reviews
-For each seminar (except the first 2 seminars) we will be writing two reviews for two of the papers 
-assigned to that day. If there are more than two papers assigned, you can pick any two of 
-the assigned papers. You are allowed to skip 1 review throughout the term. I am flexible in the formats of your
-review.  The reviews will be 1 pages long (if you need more space take another 0.25 pages but try not to). 
-You have to finish your review with 
-one question to start a discussion in the seminar. The reviews are due the Monday at 6pm before the seminar. 
+For each seminar (except the first 4 seminars) we will be writing one review for one of the papers 
+assigned to that day. If there are more than one papers assigned, you can pick any of 
+the assigned papers. You are allowed to skip 2 review throughout the term. I am flexible in the formats of your
+review.  The reviews will be 1 page long (if you need more space take another 0.25 page but try not to). 
+You have to finish your review with one question to start a discussion in the seminar. The reviews are due at 12pm Monday for the Monday seminar and at 12pm on Wednseday for the Wednsday seminar. 
 You are expected to (very very) briefly answer the following 6 questions and finish your reviews with a
 question that can start a discussion in class:
 
 + What is the problem?
 + Why is it important?
-+ Why is it hard? Why don't previous methods work?
++ Why don't previous methods work on that problem?
 + What is the solution to the problem the authors propose?
 + What interesting research questions does the paper raise?
-+ (If related) How does the paper relate to other papers we have read?
-The first 4 of these questions are from Jennifer 
-Widom's [tips for writing introductions to technical papers](https://cs.stanford.edu/people/widom/paper-writing.html). 
-I strongly recommend that each one of you read this entire document 
-very carefully (probably multiple times) at some point in your graduate studies. There is no fixed format for the reviews 
-but I recommend: Single column, 1.5 space, 12 pt, in Latex.
 
+There is no fixed format for the reviews but I recommend: Single column, 1.5 space, 12 pt, in Latex.
 Ultimately, the main thing I am looking for is a demonstration of serious critical reading of the paper.
 
 ## Project Deliverables
-There are two main deliverables of your project, a 6-page paper and the source code of your project 
+There is one main deliverable of your project, a 6-page paper and (if relevant) the source code of your project 
 with instructions to run your code.
-+ Project Paper: The project papers will be 6 pages. You can have extra pages for the references.
-They will be written in the two-column ACM proceedings format, using one of the ACM SIG Proceedings Templates.
++ Project Paper: The project papers will be 6 pages. You can have extra pages for the references and the appendix.
+They will be written in the two-column [ICML](https://icml.cc) format, using the ICML template which you can find in the corresponding website.
 + Project Source Code: Please put your source code into github and include a link in your project writeup. 
 On the github page, please document exactly how to run your source code.
 
 
 ## Presentations
-Each student will be doing 1 presentation in the term. Each presentation will be about 25 minutes long. 
+Each student will be doing at least 1 presentation in the term. Each presentation will be about 25 minutes long. 
 Here are the important points summarizing what you have to do for your presentations.
 
 + You must present with slides. The content in your slides should be your own but you can use others' materials, e.g., 
 figures from the paper we are reading, when necessary and by crediting your source on your slide.
 + Please have a separate slide for each of 4 questions in the summary item in the Paper Review section.
-+ It is very helpful to demonstrate the ideas in the paper through examples. So try to have examples in your presentation, e.g., a simulation of some code or system component.
++ It is very helpful to demonstrate the ideas in the paper through examples. So try to have examples in your presentation.
