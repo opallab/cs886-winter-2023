@@ -80,7 +80,7 @@ The below schedule is subject to change:
 + Project: 50%
 
 ## Paper Reviews
-For each seminar (except the first 3 seminars) we will be writing one review for one of the papers 
+For each seminar (except the first 4 seminars) we will be writing one review for one of the papers 
 assigned to that day. If there are more than one papers assigned, you can pick any of 
 the assigned papers. You are allowed to skip 2 review throughout the term. I am flexible in the formats of your
 review.  The reviews will be 1 page long (if you need more space take another 0.25 page but try not to). 
