@@ -86,7 +86,7 @@ For each seminar (except the first 3 seminars) we will be writing one review for
 assigned to that day. If there are more than one papers assigned, you can pick any of 
 the assigned papers. You are allowed to skip 2 review throughout the term. I am flexible in the formats of your
 review.  The reviews will be 1 page long (if you need more space take another 0.25 page but try not to). 
-You have to finish your review with one question to start a discussion in the seminar. The reviews are due at 12pm Monday for the Monday seminar and at 12pm on Wednseday for the Wednsday seminar. 
+You have to finish your review with one question to start a discussion in the seminar. The reviews are due at 12pm Monday for the Monday seminar and at 12pm on Wednseday for the Wednsday seminar. Submit your review on Crowdmark.
 You are expected to (very very) briefly answer the following 6 questions and finish your reviews with a
 question that can start a discussion in class:
 
